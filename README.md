@@ -15,7 +15,7 @@ Mindful Space is an AI-powered chatbot designed to provide mental health and emo
 ## Technologies Used
 
 - **Frontend**: React.js
-- **Backend**: Node.js (to visit backend code visit: [Github](https://github.com/AGI0987/MindfulSpaces.git)
+- **Backend**: Node.js (to visit backend code visit: [Github](https://github.com/AGI0987/MindfulSpaces.git))
 - **AI API**: Google Gemini API for natural language understanding and empathy
 - **Database**: MongoDB for chat history persistence (still working on it)
 
