@@ -25,7 +25,7 @@ function App() {
         <p>
           Mental health is important. Take a deep breath, relax, and let us help you navigate through difficult times.
         </p>
-        <a href="https://mindful-spaces-rd6hyag3s-mindfulspace.vercel.app/">
+        <a href="https://mindful-spaces.vercel.app/">
       <button className="chat-button">Start Chat</button>
       </a>
         
