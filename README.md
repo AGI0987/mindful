@@ -17,26 +17,8 @@ Mindful Space is an AI-powered chatbot designed to provide mental health and emo
 - **Frontend**: React.js
 - **Backend**: Node.js (to visit backend code visit: [Github](https://github.com/AGI0987/MindfulSpaces.git))
 - **AI API**: Google Gemini API for natural language understanding and empathy
-- **Database**: MongoDB for chat history persistence (still working on it)
+- **Database**: MongoDB for chat history persistence (still work is going on)
 
-## Installation
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (version 14.x or higher)
-- [npm](https://www.npmjs.com/get-npm) 
-- A Google Gemini API key (you can sign up for API access [here](https://cloud.google.com/))
-- [MongoDB](https://www.mongodb.com/) 
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/AGI0987/mindful.git
-cd mindful-space
-npm start
-```
 ### Architecture Diagram
 
 ```plaintext
