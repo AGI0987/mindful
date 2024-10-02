@@ -31,5 +31,8 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone 
+git clone https://github.com/AGI0987/mindful.git
 cd mindful-space
+npm start```
+
+
