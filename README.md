@@ -37,3 +37,8 @@ User Interaction      API Request/Response           AI Processing          Chat
 ![Screenshot 2024-10-02 134820](https://github.com/user-attachments/assets/275f51d8-b04c-4a4f-acc7-e258fc3a2681)
 
 ## Video
+
+https://github.com/user-attachments/assets/ddeae02a-dde4-47ca-8cc4-05cfe260b300
+
+
+
