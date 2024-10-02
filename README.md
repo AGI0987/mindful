@@ -1,4 +1,4 @@
-# Mindful-Space
+# Mindful-Space (Gen AI Exchange Hackathon by Google)
 ## Overview
 
 Mindful Space is an AI-powered chatbot designed to provide mental health and emotional support to students. It leverages Google's Gemini API to understand and empathize with user emotions, offering personalized assistance through a conversational interface.
