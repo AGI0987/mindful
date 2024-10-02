@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Mindful-Space
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mindful Space is an AI-powered chatbot designed to provide mental health and emotional support to students. It leverages Google's Gemini API to understand and empathize with user emotions, offering personalized assistance through a conversational interface.
 
-## Available Scripts
+![Screenshot 2024-10-02 134640](https://github.com/user-attachments/assets/2f5f8a5b-bb36-4328-ae39-1877c6a9c369)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **AI-Powered Conversations**: Uses Gemini's NLU and empathy features to provide emotionally intelligent responses.
+- **User Support**: Offers mental health and emotional support for students.
+- **Real-time Conversations**: The frontend is built using React for real-time communication.
+- **Responsive UI**: Designed to work on various devices with a user-friendly chatbot interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js
+- **Backend**: Node.js (to visit backend code visit: [Github](https://github.com/AGI0987/MindfulSpaces.git))
+- **AI API**: Google Gemini API for natural language understanding and empathy
+- **Database**: MongoDB for chat history persistence (still working on it)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Make sure you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (version 14.x or higher)
+- [npm](https://www.npmjs.com/get-npm) 
+- A Google Gemini API key (you can sign up for API access [here](https://cloud.google.com/))
+- [MongoDB](https://www.mongodb.com/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone the Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/AGI0987/mindful.git
+cd mindful-space
+npm start
+```
+### Architecture Diagram
 
-### `npm run eject`
+```plaintext
+|-------------|        |----------------|       |---------------------|      |-----------|
+|             |        |                |       |                     |      |           |
+|  Frontend   |<------>|   Backend API  |<----->|  Google Gemini API  |<---->|  MongoDB  |
+| (React.js)  |        |  (Node.js)     |       |  (Natural Language  |      | (Database)|
+|             |        |                |       |  Understanding)     |      |           |
+|-------------|        |----------------|       |---------------------|      |-----------|
+User Interaction      API Request/Response           AI Processing          Chat Storage/Retrieval
+```
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Cover page](https://github.com/user-attachments/assets/521e9aab-ace6-401d-aefe-ae784895cdd0)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot 2024-10-02 134820](https://github.com/user-attachments/assets/275f51d8-b04c-4a4f-acc7-e258fc3a2681)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Video
